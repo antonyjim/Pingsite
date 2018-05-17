@@ -149,7 +149,7 @@ if %more%==6 (
 	echo Main PC
 	set /a c=1
 	set /a ipd=%ipc%+!c!
-	ping -n 10 10.%ipa%.%ipb%.!ipd!
+	ping -n 10 15.%ipa%.%ipb%.!ipd!
 	goto ping
 )
 
@@ -158,7 +158,7 @@ if %more%==7 (
 	echo Printer 1
 	set /a c=2
 	set /a ipd=%ipc%+!c!
-	ping -n 10 10.%ipa%.%ipb%.!ipd!
+	ping -n 10 15.%ipa%.%ipb%.!ipd!
 	goto ping
 )
 
@@ -167,7 +167,7 @@ if %more%==8 (
 	echo Printer 2
 	set /a c=4
 	set /a ipd=%ipc%+!c!
-	ping -n 10 10.%ipa%.%ipb%.!ipd!
+	ping -n 10 15.%ipa%.%ipb%.!ipd!
 	goto ping
 )
 
@@ -176,7 +176,7 @@ if %more%==9 (
 	echo Printer 3
 	set /a c=3
 	set /a ipd=%ipc%+!c!
-	ping -n 10 10.%ipa%.%ipb%.!ipd!
+	ping -n 10 15.%ipa%.%ipb%.!ipd!
 	goto ping
 )
 
@@ -186,7 +186,7 @@ if %more% leq 5 (
 	echo PC %more%
 	set /a c=%more%
 	set /a ipd=%ipc%+!c!+4
-	ping -n 10 10.%ipa%.%ipb%.!ipd!
+	ping -n 10 15.%ipa%.%ipb%.!ipd!
 	goto ping
 )
 
